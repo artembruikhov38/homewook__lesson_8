@@ -1,0 +1,68 @@
+body{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 40px;
+}
+
+.wrapper{
+  margin-top: 30px;
+}
+
+.men::before{
+  content: "";
+  background: url(../img/icon_men.svg) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 10px;
+ 
+}
+.search::before{
+  content: "";
+  background: url(../img/icon_search.svg) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.heart::before{
+  content: "";
+  background: url(../img/icon_heart.svg) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.basket::before{
+  content: "";
+  background: url(../img/icon_basket.svg) 0 0 / 100% no-repeat;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+p{
+  text-align: center;
+  font-size: 24px;
+}
+img{
+  display: block;
+}
+li{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.collection{
+  margin-top: 30px;
+}
+.collection__img,
+.browse__img{
+  width: 75%;
+  margin: 0 auto;
+ }
+ .browse{
+  margin-bottom: 30px;
+ }
